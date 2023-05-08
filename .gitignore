@@ -1,0 +1,29 @@
+# Ignore local development files
+__pycache__/
+.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.o
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore database files
+*.sqlite3
+*.db
+*.db-journal
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.ipynb_checkpoints/
